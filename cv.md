@@ -1,4 +1,4 @@
-## [rsschool-cv](https://aliaksandr-maiseyenkau.github.io/rsschool-cv/)
+## [rsschool-cv](https://aliaksandr-maiseyenkau.github.io/rsschool-cv/cv.md)
 
 <!--TO DO: chnage link to cv-->
 
