@@ -1,7 +1,5 @@
 ## [rsschool-cv](https://aliaksandr-maiseyenkau.github.io/rsschool-cv/cv.md)
 
-<!--TO DO: chnage link to cv-->
-
 ### __Aliaksandr Maiseyenkau__
 ---
 
@@ -22,7 +20,7 @@ During my university studies, I enjoyed programming classes and I can say that t
 #### Skills
 * HTML, CSS
 * Linux Basics
-* Git & GutHub
+* Git & GitHub
 * VS Code
 * Python Basics
 

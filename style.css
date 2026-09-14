@@ -2,8 +2,103 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    border: 2px solid green;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-container {
+    background-color: #7395ae;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #383739;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: #4d2323;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 720px;
+    width: 100%;
+    border-bottom: 8px solid #557A95;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
+
+.avatar {
+    width: 128x;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.github-link {
+    width: 48px;
+    height: 48px;
+}
+
+.course-link {
+    width: 48px;
+    height: 48px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
